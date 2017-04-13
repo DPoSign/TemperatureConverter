@@ -25,7 +25,7 @@ public class Main {
                 System.out.println("La température en F est " + temperatureafter);
 
             } else {
-                temperatureafter = 50 + temperaturebefore;
+                temperatureafter = ((temperaturebefore - 32.0) * 5.0) / 9.0;
                 System.out.println("La température en C est " + temperatureafter);
 
             }
